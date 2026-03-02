@@ -33,7 +33,7 @@ namespace CALIFICACIONES_1
             else if (promedio >= 6) nivel = "Suficiente";
             else nivel = "Insuficiente";
 
-            // Mostrar resultados
+         
             Console.WriteLine($"\nNombre: {nombre}");
             Console.WriteLine($"Promedio: {promedio:F2}");
             Console.WriteLine($"Nivel de aprendizaje: {nivel}");
